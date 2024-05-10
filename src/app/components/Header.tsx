@@ -14,24 +14,22 @@ export default function Header() {
             name: "Contact",
             link: "#contact"
         },
-
     ]
-
 
     return (
         <>
             <nav className="bg-white border-gray-200 dark:bg-gray-900 fixed w-full z-50">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <picture>
-                        {/* <img src="/src/pngwing.com (4).png" className="h-8" alt="Logo patitas y garritas" /> */}
+                        <img src="/logo.png" className="h-8" alt="Logo patitas y garritas" />
                     </picture>
                     <div className="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse gap-5">
-                        <Link href="../pages/login" className="px-6 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">Login</Link>
+                        <Link href="/pages/login" className="px-6 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">Login</Link>
                         <button type="button" className="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
 
                             <span className="sr-only">Open user menu</span>
                             <picture>
-                                <img className="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="user photo" />
+                                <img className="w-8 h-8 rounded-full" src="https://t4.ftcdn.net/jpg/04/10/43/77/360_F_410437733_hdq4Q3QOH9uwh0mcqAhRFzOKfrCR24Ta.jpg" alt="user photo" />
                             </picture>
                         </button>
 
