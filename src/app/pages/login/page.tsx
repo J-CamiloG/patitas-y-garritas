@@ -18,7 +18,7 @@ export default function Login() {
         
         for (const key in dataBase) {
             if (username === dataBase[key].username && password === dataBase[key].password) {
-                router.push('../adminapp');
+                router.push('/pages/adminapp');
             }else{
                 alert('Contrasena incorrecta')
             }
